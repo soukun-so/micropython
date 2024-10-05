@@ -44,18 +44,18 @@ while True:
         time.sleep(3)
         
     if button2.value :
-        keyboard.press(Keycode.WINDOWS, Keycode.TAB)  # Windowsキー+Dを送信
+        keyboard.press(Keycode.WINDOWS, Keycode.TAB)  # Windowsキー+TABを送信
         keyboard.release_all()  # キーを離す
         time.sleep(3)
         
     if button3.value :
-        keyboard.press(Keycode.U)  # Windowsキー+Dを送信
+        keyboard.press(Keycode.U)  # Uを送信
         keyboard.release_all()  # キーを離す
-        keyboard.press(Keycode.N)  # Windowsキー+Dを送信
+        keyboard.press(Keycode.N)  # Nを送信
         keyboard.release_all()  # キーを離す
-        keyboard.press(Keycode.K)  # Windowsキー+Dを送信
+        keyboard.press(Keycode.K)  # Kを送信
         keyboard.release_all()  # キーを離す
-        keyboard.press(Keycode.O)  # Windowsキー+Dを送信
+        keyboard.press(Keycode.O)  # O
         keyboard.release_all()  # キーを離す
         time.sleep(3)
         
